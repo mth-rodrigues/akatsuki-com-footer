@@ -2,7 +2,9 @@ aside{
     grid-area: aside;
 }
 body{
+    background-color: rgb(165, 17, 17);
     display: grid;
+    cursor: url("../images/kunai\ \(1\).png"),default;
     font-family: 'Permanent Marker', cursive;
     grid-template-areas: 'nav nav nav nav'
                          'header header header aside'
@@ -27,6 +29,7 @@ nav{
 }
 nav a{
     color: white;
+    cursor: url("../images/kunai\ \(1\).png"),default;
     text-decoration: none;
 }
 nav a:hover{
