@@ -25,7 +25,7 @@ body{
                          'section section section aside'
                          'footer footer footer footer';
 grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 70vh 90vh 10vh;
+grid-template-rows: 8vh 70vh 115vh 20vh;
 margin: 0;                       
 }
 body::-webkit-scrollbar{
@@ -35,14 +35,25 @@ body::-webkit-scrollbar{
 footer{
     grid-area: footer;
 }
+footer h2{
+
+    margin: 25px;
+}
+footer img{
+    height: 55px;
+
+}
+footer p{
+    margin: 25px;
+}
+
 header{
     background-image: url("../images/123.png");
     background-repeat: no-repeat;
     grid-area: header;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 0;
     
-
 }
 nav{
     align-items: center;
